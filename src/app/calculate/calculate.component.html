@@ -1,0 +1,53 @@
+<div class="navbar navbar-expand-lg navbar-light center">
+  <a class="btn btn-success" routerLink="/home">&larr;</a>
+  <h5>Calculator</h5>
+  <a class="btn btn-success" routerLink="/userform">&rarr;</a>
+</div>
+
+<div class="myclass">
+  <table class="table table-dark" align="center">
+    <tr>
+      <td>Number 1</td>
+      <td>Number 2</td>
+    </tr>
+    <tr>
+      <td>
+        <input
+          [(ngModel)]="num1"
+          type="number"
+          class="form-control"
+          aria-label="disabled input example"
+        />
+      </td>
+      <td>
+        <input [(ngModel)]="num2" type="number" class="form-control" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">Result</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input [(ngModel)]="result" type="number" class="form-control" />
+      </td>
+    </tr>
+  </table>
+  <table class="table">
+    <tr>
+      <td>
+        <button (click)="addition()" class="operator btn btn-info">+</button>
+      </td>
+      <td>
+        <button (click)="subtraction()" class="operator btn btn-info">-</button>
+      </td>
+      <td>
+        <button (click)="multiplication()" class="operator btn btn-info">
+          x
+        </button>
+      </td>
+      <td>
+        <button (click)="division()" class="operator btn btn-info">/</button>
+      </td>
+    </tr>
+  </table>
+</div>

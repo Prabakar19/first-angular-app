@@ -1,0 +1,30 @@
+table {
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+button {
+  text-align: center;
+  padding: 10px 20px;
+  width: 80%;
+  border-radius: 10px;
+}
+input {
+  text-align: end;
+}
+button:hover {
+  background-color: blue;
+}
+.center {
+  margin-left: 40%;
+}
+h5 {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.myclass {
+  margin: 1px 1px 1px 1px;
+  padding: 3% 35%;
+}
