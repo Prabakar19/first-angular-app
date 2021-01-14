@@ -6,7 +6,7 @@ import {
   FormGroup,
   Validators,
 } from '@angular/forms';
-import { User } from '../User';
+import { User } from '../../User';
 import * as _ from 'lodash';
 
 @Component({

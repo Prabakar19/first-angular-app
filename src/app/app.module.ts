@@ -5,11 +5,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CalculateComponent } from './calculate/calculate.component';
-import { UserFormComponent } from './user-form/user-form.component';
-import { DummyclientComponent } from './dummyclient/dummyclient.component';
+import { CalculateComponent } from './components/calculate/calculate.component';
+import { UserFormComponent } from './components/user-form/user-form.component';
+import { DummyclientComponent } from './components/dummyclient/dummyclient.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomePageComponent } from './home-page/home-page.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
 
 @NgModule({
   declarations: [
